@@ -1,0 +1,19 @@
+{
+  "name": "nodebooth",
+  "version": "0.0.1",
+  "description": "Photobooth application written in a node wrapper to control the camera.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "photo",
+    "photobooth",
+    "node"
+  ],
+  "author": "Tim Harshman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
