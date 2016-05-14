@@ -21,5 +21,5 @@ photobooth.get('/takePicture',function (req,res) {
 photobooth.use(express.static(__dirname));
 
 photobooth.listen(3000, function () {
-  console.log('Ready to take some pics!!');
+  console.log('Ready to take some pics!');
 });
