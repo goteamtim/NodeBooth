@@ -1,39 +1,44 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="Tim Harshman">
-    <link rel="icon" href="../../favicon.ico">
 
-    <title>Photobooth</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="Tim Harshman">
+  <link rel="icon" href="../../favicon.ico">
 
-    <!-- Bootstrap core CSS -->
-    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-   
-  </head>
+  <title>Photobooth</title>
 
-  <body>
+  <!-- Bootstrap core CSS -->
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+  <script src="../js/firebase.js"></script>
+  <script src="../js/main.js" ></script>
+</head>
 
-    <div class="container">
-        <div class="row text-center">
-            <div class="col-sm-4"></div>
-            <div class="col-sm-4">
-                <!-- add red to circle and then press text -->
-                <img src="../assets/camera.png" alt="" style="width:300px;height:300px;">
-            </div>
-            <div class="col-sm-4"></div>
-            
-        </div>
+<body>
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-4"></div>
+      <div class="col-sm-4">
+        <!-- add red to circle and then press text -->
+        <img src="../assets/camera.png" alt="" style="width:300px;height:300px;">
+      </div>
+      <div class="col-sm-4"></div>
+
     </div>
+  </div>
 
-    <!-- hosted resources are fine for dev but download and package for distribution in the event there is no internet when the app is run. -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  </body>
+  <!-- hosted resources are fine for dev but download and package for distribution in the event there is no internet when the app is run. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script>
+    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+  </script>
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
 </html>

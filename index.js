@@ -12,7 +12,8 @@ photobooth.get('/', function (req, res) {
   res.sendFile(__dirname+"/"+"index.html");
 });
 
-photobooth.get('/takePicture',function (req,res) {
+photobooth.get('/takePictures/{time}',function (req,res) {
+    //Pass the time variable as the filename
     //fire the camera script
     //update UI to show countdown
     //Show completed picture after complete
